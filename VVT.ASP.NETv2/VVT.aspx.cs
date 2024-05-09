@@ -643,11 +643,12 @@ namespace VVT.ASP.NETv2
             //MessageBox.Show("Please copy and paste the next pop-up box and save to txt file");
             //MessageBox.Show(logWrite);
 
-            using (StreamWriter writeErrors = new StreamWriter(@"\\visonas\public\Kyle\VVT Releases\log/vvt_log.txt"))
+            //real path:                                       \\visonas\public\kyle\vvt releases\log/vvt_log.txt
+           using (StreamWriter writeErrors = new StreamWriter(@"\\visonas\public\kyle\vvt releases\log/vvt_log.txt"))
             {
-
-                writeErrors.WriteLine(logWrite);
-            }
+           
+              writeErrors.WriteLine(logWrite);
+           }
 
         }
 
