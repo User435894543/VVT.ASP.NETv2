@@ -106,7 +106,7 @@ namespace VVT.ASP.NETv2
 
             //open th econnection and error check
             OdbcConnection dbConn = new OdbcConnection(connectStr);
-            dbConn.ConnectionTimeout = 150;
+            dbConn.ConnectionTimeout = 9000;
             try
             {
                 dbConn.Open();
@@ -735,7 +735,7 @@ namespace VVT.ASP.NETv2
 
             //open th econnection and error check
             OdbcConnection dbConn = new OdbcConnection(connectStr);
-            dbConn.ConnectionTimeout = 150;
+            dbConn.ConnectionTimeout = 9000;
             try
             {
                 dbConn.Open();
@@ -2259,7 +2259,7 @@ namespace VVT.ASP.NETv2
             //open th econnection and error check
             OdbcConnection dbConn = new OdbcConnection(connectStr);
 
-            dbConn.ConnectionTimeout = 150;
+            dbConn.ConnectionTimeout = 9000;
 
             try
             {
@@ -3375,7 +3375,7 @@ namespace VVT.ASP.NETv2
 
             //open th econnection and error check
             OdbcConnection dbConn = new OdbcConnection(connectStr);
-            dbConn.ConnectionTimeout = 150;
+            dbConn.ConnectionTimeout = 9000;
             try
             {
                 dbConn.Open();
@@ -4627,7 +4627,7 @@ namespace VVT.ASP.NETv2
 
             //open th econnection and error check
             OdbcConnection dbConn = new OdbcConnection(connectStr);
-            dbConn.ConnectionTimeout = 150;
+            dbConn.ConnectionTimeout = 9000;
             try
             {
                 dbConn.Open();
@@ -5771,7 +5771,7 @@ namespace VVT.ASP.NETv2
 
             //open th econnection and error check
             OdbcConnection dbConn = new OdbcConnection(connectStr);
-            dbConn.ConnectionTimeout = 150;
+            dbConn.ConnectionTimeout = 9000;
             try
             {
                 dbConn.Open();

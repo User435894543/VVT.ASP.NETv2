@@ -1,14 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="VVT.aspx.cs" Inherits="VVT.ASP.NETv2.VVT" %>
+﻿<%@ Page Title="VVT" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="VVT.aspx.cs" Inherits="VVT.ASP.NETv2.VVT" %>
 
 <%@ Register assembly="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" namespace="CrystalDecisions.Web" tagprefix="CR" %>
 
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-
+<html>
 <head>
 	<style>
 		.flex { display: flex;
@@ -23,7 +21,7 @@
 	</style>
 </head>
 <body>
-	<form id="form1" runat="server">
+
 
 	<div class="flex">
 		<span style="font-size: 30px; color: #229F7A;" class="mr">VVT</span>
@@ -150,9 +148,9 @@
 
         </p>
 
-
-    </form>
 </body>
 
-
+   
 </html>
+
+        </asp:Content>

@@ -54,6 +54,7 @@
 
                         <li><a runat="server" href="~/VVT">VVT</a></li>
 
+                        <li><a runat="server" href="~/Estimator">Estimator</a></li>
 
                         <!--<li><a runat="server" href="~/About">About</a></li>-->
                         <li><a runat="server" href="~/Contact">Contact</a></li>
